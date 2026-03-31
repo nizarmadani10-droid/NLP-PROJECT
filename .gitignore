@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model checkpoints
+fine_tuned_gpt2/
+optimized_finetuned_model/
+base_model/
+upgraded_model/
+logs_base/
+logs_upgraded/
+
+# Data (large files)
+*.csv
+*.zip
+
+# Environment
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
